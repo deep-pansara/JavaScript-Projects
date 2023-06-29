@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+background: #ec008c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+display: flex;
+height: 100vh;
+width: 100vw;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+
+}
+
+.digital-clock {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    
+    /* Box Shadow */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    border-radius: 7px;
+
+
+    background-color: #c7e9fb;
+    background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+    
+    
+}
+
+.digital-clock div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    height: 25vh;
+    width: 20vw;
+    margin: 0.8rem;
+    border-radius: 10px;
+
+    /* Box Shadow */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
